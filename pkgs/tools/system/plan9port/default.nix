@@ -16,13 +16,13 @@
 
 stdenv.mkDerivation rec {
   pname = "plan9port";
-  version = "2025-01-29";
+  version = "2025-05-08";
 
   src = fetchFromGitHub {
     owner = "9fans";
     repo = pname;
-    rev = "a5d6857a3b912b43c88ef298c28d13d4623f9ef0";
-    sha256 = "0c23z56zygrsyr96ml7907mpfgx80vnsy99nqr3nmfw1a045mjgv";
+    rev = "df9b195ebfcd7d5fb673512ec7ec3b3df9981c61";
+    sha256 = "sha256-TzndbhLMuxWPYhlWQenvGLY2ekQSRi9QrpzIcGVaCjw=";
   };
 
   postPatch = ''
